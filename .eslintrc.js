@@ -23,6 +23,18 @@ module.exports = {
   "extends": "airbnb",
   "rules": {
     "react/jsx-filename-extension": 0,
-    "function-paren-newline": 0
+    "function-paren-newline": 0,
+    'react/prefer-stateless-function': 0,
+    'react/jsx-one-expression-per-line': 0,
+    'no-trailing-spaces': 0,
+    "indent": ["error", 4],
+    "react/jsx-indent" : ["error", 4],
+  },
+  "globals": {
+      "test": true,
+      "expect": true,
+      "cleanup": true,
+      "afterEach": true,
+      "jest": true,
   }
 };
